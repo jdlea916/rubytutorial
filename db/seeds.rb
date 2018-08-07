@@ -33,3 +33,16 @@ kale_smoothie.ingredients.create(description: "large handful frozen pineapple ch
 kale_smoothie.ingredients.create(description: "medium-sized chunk ginger")
 kale_smoothie.ingredients.create(description: "1 tbsp cashew nuts")
 kale_smoothie.ingredients.create(description: "1 banana, optional")
+
+frozen_fruit_smoothie = Drink.create(
+  title: "Frozen Fruit Smoothies",
+  description: "Salvage your frozen fruit with this easy smoothie recipe",
+  steps: "Put all the ingredients in a blender and process until smooth. Pour into glasses and serve.",
+  source: "https://www.foodnetwork.com/recipes/food-network-kitchen/frozen-fruit-smoothies-recipe-1914927"
+)
+frozen_fruit_smoothie.ingredients.create(description: "1 frozen banana, peeled and sliced")
+frozen_fruit_smoothie.ingredients.create(description: "2 cups frozen strawberries, raspberries, or cherries")
+frozen_fruit_smoothie.ingredients.create(description: "1 cup milk")
+frozen_fruit_smoothie.ingredients.create(description: "1/2 cup plain or vanilla yogurt")
+frozen_fruit_smoothie.ingredients.create(description: "1/2 cup freshly squeezed orange juice")
+frozen_fruit_smoothie.ingredients.create(description: "2 to 3 tablespoons honey or to taste")
